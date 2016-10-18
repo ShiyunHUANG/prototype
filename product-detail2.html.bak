@@ -512,14 +512,14 @@
                   <div class="aa-product-view-slider">                                
                     <div id="demo-1" class="simpleLens-gallery-container">
                       <div class="simpleLens-container">
-                        <div class="simpleLens-big-image-container"><a data-lens-image="img/view-slider/large/headache_large1.jpg" class="simpleLens-lens-image"><img src="img/view-slider/medium/headache_medium1.jpg" class="simpleLens-big-image"></a></div>
+                        <div class="simpleLens-big-image-container"><a data-lens-image="img/view-slider/large/Aspirin_Large1.jpg" class="simpleLens-lens-image"><img src="img/view-slider/medium/Aspirin_Medium1.jpg" class="simpleLens-big-image"></a></div>
                       </div>
                       <div class="simpleLens-thumbnails-container">
-                          <a data-big-image="img/view-slider/medium/headache_medium1.jpg" data-lens-image="img/view-slider/large/headache_large1.jpg" class="simpleLens-thumbnail-wrapper" href="#">
-                            <img src="img/view-slider/thumbnail/headache_small1.jpg">
+                          <a data-big-image="img/view-slider/medium/Aspirin_Medium1.jpg" data-lens-image="img/view-slider/large/Aspirin_Large1.jpg" class="simpleLens-thumbnail-wrapper" href="#">
+                            <img src="img/view-slider/thumbnail/Aspirin_small1.jpg">
                           </a>  
-                          <a data-big-image="img/view-slider/medium/headache_medium2.jpg" data-lens-image="img/view-slider/large/headache_large2.jpg" class="simpleLens-thumbnail-wrapper" href="#">
-                            <img src="img/view-slider/thumbnail/headache_small2.jpg">
+                          <a data-big-image="img/view-slider/medium/Aspirin_Medium2.jpg" data-lens-image="img/view-slider/large/Aspirin_Large2.jpg" class="simpleLens-thumbnail-wrapper" href="#">
+                            <img src="img/view-slider/thumbnail/Aspirin_small2.jpg">
                           </a>                                  
                       </div>
                     </div>
