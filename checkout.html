@@ -602,8 +602,13 @@
                         <div class="panel-body">
                           <div class="row">
                             <div class="col-md-12">
-                              <div class="aa-checkout-single-bill">
-                                <input type="radio" id="cashdelivery" name="optionsRadios"> Standard $2.99 <br><input type="radio" id="paypal" name="optionsRadios" checked> Express $9.99 
+                              <div class="aa-payment-method">
+                                <input type="radio" name='group' ng-model='mValue' checked="checked"> Standard shipping (6-8 business days) $2.99 <br>
+                                <input type="radio" name='group' ng-model='mValue'> Express (2 business days) $9.99<br>
+                              </div>
+                              <div>  
+                                <img scr="img/checkout/usps.png">
+                                <img scr="img/checkout/ups.png">
                               </div>                             
                             </div>                            
                           </div> 
@@ -707,9 +712,13 @@
                           <th>Tax</th>
                           <td>$2</td>
                         </tr>
+                        <tr>
+                          <th>Shipping fee</th>
+                          <td>$2.99</td>
+                        </tr>
                          <tr>
                           <th>Total</th>
-                          <td>$25.98</td>
+                          <td>$28.97</td>
                         </tr>
                       </tfoot>
                     </table>
