@@ -219,11 +219,6 @@ aa-add-to-cart-btn
   margin-right: 5px;
 }
 
-.aa-add-to-cart-btn: hover, .aa-add-to-cart-btn: focus{
-  color: #761B60;
-  background-color: #fff;
-}
-
 .aa-filter-btn {  
   color: #fff;
   font-size: 15px;
