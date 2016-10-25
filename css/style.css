@@ -79,7 +79,7 @@ h2 {
 img {
   border: none;
 }
-
+aa-add-to-cart-btn
 .aa-primary-btn {
   font-size: 16px;
   padding: 10px 30px;
@@ -217,6 +217,11 @@ img {
 }
 .aa-add-to-cart-btn span {
   margin-right: 5px;
+}
+
+.aa-add-to-cart-btn: hover, .aa-add-to-cart-btn: focus{
+  color: #761B60;
+  background-color: #fff;
 }
 
 .aa-filter-btn {  

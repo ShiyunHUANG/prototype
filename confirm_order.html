@@ -623,7 +623,7 @@
                               </tr>
                             </tfoot>
                           </table>  
-                          <td><button id='modal' data-toggle="modal" data-target="#myModal" type="button" value="Place Order" class="aa-browse-btn">Confirm</td>    
+                          <td><button id='modal' data-toggle="modal" data-target="#payModal" type="button" value="Place Order" class="aa-browse-btn">Confirm</td>    
                           </div>                                                  
                         </div>
                         
@@ -760,25 +760,46 @@
     </div>
   </footer>
   <!-- / footer 拷贝结束 -->
-  <!-- Modal content-->
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
-          
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h3 class="modal-title">Success!</h4>
-            </div>
-            <div class="modal-footer">
-              <div class="col-xs-12">
-              <h4>Congratulations you order is successfully placed!</h4>
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-    </div>
-<!-- End of Modal content-->
-
+ 
+<!-- Add new paying method Modal -->
+          <div class="modal fade" id="payModal" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h2 class="modal-title">Enter your card information</h2>
+                </div>
+                <div class="modal-body">
+                  <div class="a-row a-spacing-small"> Enter your card information: </div>
+                  <div class="a-row a-spacing-base">
+                    <div class="field-span">
+                      <label for="ccName">Name on card
+                      </label>
+                        <input type="text" class="form-control" size="10"/>
+                    </div>
+                    <div class="field-span">
+                      <label for="addCreditCardNumber">Card number</label>
+                      <input type="text" class="form-control" size="10"/>
+                    </div>
+                    <br>
+                    <div class="field-span pay-date-width">
+                      <label for="ccMonth">Expiration date</label>
+                      <span class="a-dropdown-container card-date ">
+                        <select id="ccMonth" name="month" 
+                        class="a-native-dropdown native-dropdown " >
+                        <option value="1" selected="selected">01</option><option value="2" >02</option><option value="3" >03</option><option value="4" >04</option><option value="5" >05</option><option value="6" >06</option><option value="7" >07</option><option value="8" >08</option><option value="9" >09</option><option value="10" >10</option><option value="11" >11</option><option value="12" >12</option>
+                      </select>
+                    </span>
+                    <span class="a-dropdown-container card-date ">
+                      <select id="ccYear" name="year" 
+                      class="a-native-dropdown native-dropdown " >
+                      <option value="2016" selected="selected">2016</option><option value="2017" >2017</option><option value="2018" >2018</option><option value="2019" >2019</option><option value="2020" >2020</option><option value="2021" >2021</option><option value="2022" >2022</option><option value="2023" >2023</option><option value="2024" >2024</option><option value="2025" >2025</option><option value="2026" >2026</option><option value="2027" >2027</option><option value="2028" >2028</option><option value="2029" >2029</option><option value="2030" >2030</option><option value="2031" >2031</option><option value="2032" >2032</option><option value="2033" >2033</option><option value="2034" >2034</option><option value="2035" >2035</option><option value="2036" >2036</option>
+                    </select>
+                  </span>
+                </div>
+                <td><a href="success.html"><button type="button" value="Place Order" class="aa-browse-btn">Complete Payment</button></a></td>
+              </div>
+<!-- end new add a new paying method html-->
 
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
