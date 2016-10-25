@@ -79,7 +79,7 @@ h2 {
 img {
   border: none;
 }
-
+aa-add-to-cart-btn
 .aa-primary-btn {
   font-size: 16px;
   padding: 10px 30px;
@@ -117,7 +117,8 @@ img {
 }
 .aa-secondary-btn:hover, .aa-secondary-btn:focus {
   text-decoration: none;
-  color: #761B60;
+  background-color: #761B60;
+  color: #fff;
 }
 
 .aa-secondary-btn2 {
@@ -204,6 +205,7 @@ img {
 .aa-add-to-cart-btn {
   border: 1px solid #761B60;
   background-color: #761B60;
+  color: #fff;
   display: inline-block;
   font-size: 14px;
   font-weight: bold;
@@ -215,6 +217,11 @@ img {
 }
 .aa-add-to-cart-btn span {
   margin-right: 5px;
+}
+
+.aa-add-to-cart-btn: hover, .aa-add-to-cart-btn: focus{
+  color: #761B60;
+  background-color: #fff;
 }
 
 .aa-filter-btn {  
@@ -242,8 +249,7 @@ img {
   transition: all 0.5s;
 }
 .aa-cart-view-btn:hover {
-  background-color: #000;
-  color: #fff;
+  text-decoration: none;
 }
 
 /* LAYOUTS - Page layout styles */
@@ -2283,11 +2289,32 @@ img {
 #aa-product-details .aa-product-details-area .aa-product-details-bottom #description {
   padding: 20px 10px;
 }
+#aa-product-details .aa-product-details-area .aa-product-details-bottom #warning {
+  padding: 20px 10px;
+}
 #aa-product-details .aa-product-details-area .aa-product-details-bottom #description ul {
   margin-bottom: 10px;
   padding-left: 25px;
 }
 #aa-product-details .aa-product-details-area .aa-product-details-bottom #description ul li {
+  color: #555;
+  list-style: outside none square;
+  margin-top: 5px;
+}
+#aa-product-details .aa-product-details-area .aa-product-details-bottom #warning ul {
+  margin-bottom: 10px;
+  padding-left: 25px;
+}
+#aa-product-details .aa-product-details-area .aa-product-details-bottom #warning ul li {
+  color: #555;
+  list-style: outside none square;
+  margin-top: 5px;
+}
+#aa-product-details .aa-product-details-area .aa-product-details-bottom #review ul {
+  margin-bottom: 10px;
+  padding-left: 25px;
+}
+#aa-product-details .aa-product-details-area .aa-product-details-bottom #review ul li {
   color: #555;
   list-style: outside none square;
   margin-top: 5px;
