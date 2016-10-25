@@ -2289,11 +2289,32 @@ aa-add-to-cart-btn
 #aa-product-details .aa-product-details-area .aa-product-details-bottom #description {
   padding: 20px 10px;
 }
+#aa-product-details .aa-product-details-area .aa-product-details-bottom #warning {
+  padding: 20px 10px;
+}
 #aa-product-details .aa-product-details-area .aa-product-details-bottom #description ul {
   margin-bottom: 10px;
   padding-left: 25px;
 }
 #aa-product-details .aa-product-details-area .aa-product-details-bottom #description ul li {
+  color: #555;
+  list-style: outside none square;
+  margin-top: 5px;
+}
+#aa-product-details .aa-product-details-area .aa-product-details-bottom #warning ul {
+  margin-bottom: 10px;
+  padding-left: 25px;
+}
+#aa-product-details .aa-product-details-area .aa-product-details-bottom #warning ul li {
+  color: #555;
+  list-style: outside none square;
+  margin-top: 5px;
+}
+#aa-product-details .aa-product-details-area .aa-product-details-bottom #review ul {
+  margin-bottom: 10px;
+  padding-left: 25px;
+}
+#aa-product-details .aa-product-details-area .aa-product-details-bottom #review ul li {
   color: #555;
   list-style: outside none square;
   margin-top: 5px;
