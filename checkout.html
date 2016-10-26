@@ -516,6 +516,7 @@
                         <div class="panel-body">
                           <input type="text" placeholder="Coupon Code" class="aa-coupon-code">
                           <input type="submit" value="Apply Coupon" class="aa-browse-btn">
+                          <input type="submit" value="Skip" class="aa-browse-btn">
                         </div>
                       </div>
                     </div>
@@ -685,6 +686,54 @@
                         </div>
                       </div>
                     </div>
+                    <!-- Coupon section -->
+                    <div class="panel panel-default aa-payment-method">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                            Payment Method
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <label for="cashdelivery"><input type="radio" id="cashdelivery" name="optionsRadios"> Cash on Delivery </label><br>
+                          <label for="credit card"><input type="radio" id="cashdelivery" name="optionsRadios" checked> Credit Card </label><br>
+                          <label for="paypal"><input type="radio" id="paypal" name="optionsRadios" > Via Paypal </label><br>
+                          <img src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg" border="0" alt="PayPal Acceptance Mark"><br>
+                          <div class="a-row a-spacing-base">
+                            <div class="field-span">
+                              <label for="ccName">Name on card
+                              </label>
+                                <input type="text" class="form-control" size="10"/>
+                            </div>
+                            <div class="field-span">
+                              <label for="addCreditCardNumber">Card number</label>
+                              <input type="text" class="form-control" size="10"/>
+                            </div>
+                            <br>
+                            <div class="field-span pay-date-width">
+                              <label for="ccMonth">Expiration date</label>
+                              <span class="a-dropdown-container card-date ">
+                                <select id="ccMonth" name="month" 
+                                class="a-native-dropdown native-dropdown " >
+                                <option value="1" selected="selected">01</option><option value="2" >02</option><option value="3" >03</option><option value="4" >04</option><option value="5" >05</option><option value="6" >06</option><option value="7" >07</option><option value="8" >08</option><option value="9" >09</option><option value="10" >10</option><option value="11" >11</option><option value="12" >12</option>
+                              </select>
+                            </span>
+                            <span class="a-dropdown-container card-date ">
+                              <select id="ccYear" name="year" 
+                              class="a-native-dropdown native-dropdown " >
+                              <option value="2016" selected="selected">2016</option><option value="2017" >2017</option><option value="2018" >2018</option><option value="2019" >2019</option><option value="2020" >2020</option><option value="2021" >2021</option><option value="2022" >2022</option><option value="2023" >2023</option><option value="2024" >2024</option><option value="2025" >2025</option><option value="2026" >2026</option><option value="2027" >2027</option><option value="2028" >2028</option><option value="2029" >2029</option><option value="2030" >2030</option><option value="2031" >2031</option><option value="2032" >2032</option><option value="2033" >2033</option><option value="2034" >2034</option><option value="2035" >2035</option><option value="2036" >2036</option>
+                            </select>
+                          </span> 
+                          </div>
+                          </div>   
+                          <a href="confirm_order.html">
+                            <br><input type="button" value="Preview Order" class="aa-browse-btn">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -728,17 +777,6 @@
                         </tr>
                       </tfoot>
                     </table>
-                  </div>
-                  <h4>Payment Method</h4>
-                  <div class="aa-payment-method">                    
-                    
-                    <label for="cashdelivery"><input type="radio" id="cashdelivery" name="optionsRadios"> Cash on Delivery </label>
-                    <label for="credit card"><input type="radio" id="cashdelivery" name="optionsRadios" checked> Credit Card </label>
-                    <label for="paypal"><input type="radio" id="paypal" name="optionsRadios" > Via Paypal </label>
-                    <img src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg" border="0" alt="PayPal Acceptance Mark">    
-                    <a href="confirm_order.html">
-                      <input type="button" value="Confirm Order" class="aa-browse-btn">
-                    </a>
                   </div>
                 </div>
               </div>
