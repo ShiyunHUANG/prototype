@@ -498,9 +498,10 @@
         <div class="aa-myaccount-area">         
             <div class="row">
                 <div class="col-md-6">
-                <div class="aa-myaccount-register">                 
+                <div class="aa-myaccount-register">              
                  <h4>Register <small> new to UPMC </small> </h4>
                  <form action="Registered.html" class="aa-login-form">
+                  	<label> <span color = "white">&nbsp&nbsp </span></label><br>
                     <label for="">Email address<span>*</span></label>
                     <input type="text" placeholder="Email (example@example.com)">
                     <label for="">Username<span>*</span></label>
@@ -515,11 +516,13 @@
               </div>            
                 <div class="col-md-6">
                 <div class="aa-myaccount-login">
+                 
                 <h4>Login <small> already have an account? </small></h4>
                  <form action="login-error.html" class="aa-login-form">
-                  <label for="">Username or Email address<span>*&nbsp&nbsp&nbsp&nbsp<small>--The account may not exist!</small></span></label>
+                 <label>  <span color = "red">* The account may not exist or the password dosen't match! </span></label>
+                  <label for="">Username or Email address<span>*</span></label>
                    <input type="text" placeholder="Username or Email(example@example.com)">
-                   <label for="">Password <span>*&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<small>  --Or the password doesn't match!</small></span></label>
+                   <label for="">Password <span>*</span></label>
                     <input type="password" placeholder="Password">
                     <button class="aa-browse-btn">Login</button>
                     <label class="rememberme" for="rememberme"><input type="checkbox" id="rememberme"> Remember me </label>
