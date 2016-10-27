@@ -2483,6 +2483,13 @@ aa-add-to-cart-btn
   text-align: left;
   margin-bottom: 15px;
 }
+#cart-view .cart-view-area .cart-view-table h4 {
+  color: #555;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 15px;
+}
 #cart-view .cart-view-area .cart-view-table .cart-view-total .aa-totals-table {
   border: 1px solid #ccc;
   width: 100%;
