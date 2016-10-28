@@ -963,7 +963,12 @@
                   <input type="checkbox" name="Alka-Seltzer">
                    <br/>
                   Bayer
-                  <input type="checkbox" name="Bayer">
+                  <input type="checkbox" name="Bayer" onclick="filter()">
+                  <script>
+                    function filter(){
+                      window.location='product-line-filter.html'; 
+                    }
+                  </script>
                   </form>
 
               </ul>
