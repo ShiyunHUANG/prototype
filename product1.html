@@ -564,7 +564,7 @@
                   </figure>                         
                   <div class="aa-product-hvr-content">
                     <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
+                     <a href="#" data-toggle="modal" data-target="#compare-modal" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
                                               
                   </div>
                   <!-- product badge -->
@@ -1142,6 +1142,54 @@
     </div><!-- /.modal-dialog -->
   </div>    
   <!-- Login Modal 拷贝结束 -->   
+  
+  <!-- 模态框（Modal） -->
+<div class="modal fade" id="compare-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-compare">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+         <div class = "container">
+            <div class = "row">
+              <div class = "col-md-3">
+                  <figure>
+                    <a  href="product-detail.html"><img height = 100px src="img/product/list/bayer1.jpg" alt="bayer1 img"></a>
+                     <figcaption>
+                               <a class="aa-product-title" href="product-detail.html"> Bayor Aspirin，300 CT</a>
+                               <span class="aa-product-price">$10.50</span> 
+                             </figcaption>
+                </figure> 
+             </div>
+             <div class = "col-md-3">
+                <figure>
+                  <a  href="product-detail.html"><img height = 100px src="img/product/list/GERI1.jpg" alt="bayer1 img"></a>
+                   <figcaption>
+                                <a class="aa-product-title" href="product-detail.html">GeriCare Aspirin Tablets 100CT</a>
+                               <span class="aa-product-price">$41.99</span> 
+                             </figcaption>
+                </figure> 
+            </div>  
+             <div class = "col-md-3">
+                <figure>
+                  <a class="aa-product-img" href="product-detail.html"><img height = 100px src="img/product/list/Bayer2.jpg" alt="bayer1 img"></a>
+                   <figcaption>
+                               <a class="aa-product-title" href="product-detail.html">Bayer Aspirin Coated Tablets 325mg</a>                       
+                               <span class="aa-product-price">$9.50</span>
+                             </figcaption>
+                </figure>   
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="aa-secondary-btn4" data-dismiss="modal">Add more
+        </button>
+        <a class="aa-secondary-btn4" href="404.html">Compare</a>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal -->
+</div>
+
 
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
