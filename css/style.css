@@ -1244,13 +1244,13 @@ aa-add-to-cart-btn
   transition: all 0.5s;
 }
 .aa-product-catg li figure .aa-add-card-btn {
-  background: #000 none repeat scroll 0 0;
+  background: #A37FA7 none repeat scroll 0 0;
   bottom: 0;
-  color: #fff;
+  color: #FFF;
   font-size: 16px;
   font-weight: bold;
   left: 0;
-  padding: 12px 10px;
+  padding: 10px 8px;
   position: absolute;
   right: 0;
   text-transform: uppercase;
@@ -1264,6 +1264,10 @@ aa-add-to-cart-btn
   -ms-transform: scale(0);
   -webkit-transform: scale(0);
   transform: scale(0);
+}
+.aa-product-catg li figure .aa-add-card-btn:hover {
+  background: #761B60;
+  color: #FFF;
 }
 .aa-product-catg li figure .aa-add-card-btn span {
   margin-right: 5px;
