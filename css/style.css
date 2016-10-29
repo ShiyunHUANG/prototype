@@ -145,7 +145,7 @@ aa-add-to-cart-btn
 
 .aa-secondary-btn2 {
   background-color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   padding: 10px 22px;
   margin-top: 10px;
   display: inline-block;
@@ -158,10 +158,11 @@ aa-add-to-cart-btn
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  font-weight: bold;
 }
 .aa-secondary-btn3 {
   background-color: #761B60;
-  font-size: 24px;
+  font-size: 20px;
   color: #fff;
   padding: 10px 22px;
   margin-top: 10px;
@@ -175,6 +176,7 @@ aa-add-to-cart-btn
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  font-weight: bold;
 }
 
 .aa-secondary-btn4 {
@@ -898,7 +900,9 @@ aa-add-to-cart-btn
 #aa-slider .aa-slider-area {
   display: inline;
   float: left;
-  width: 100%;
+  width: 86%;
+  margin-left: 7%;
+  margin-top: 3%;
 }
 #aa-slider .aa-slider-area .seq-title {
   margin-right: 0;
