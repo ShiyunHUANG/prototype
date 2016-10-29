@@ -598,11 +598,7 @@
                             </div>
                           </div>   
                           <div class="row">
-                            <div class="col-md-6">
-                              <div class="aa-checkout-single-bill">
-                                <input type="text" placeholder="Postcode / ZIP*">
-                              </div>
-                            </div>
+                            
                             <div class="col-md-6">
                               <div class="aa-checkout-single-bill">
                                 <select>
@@ -660,6 +656,11 @@
                                   <option value="WY">Wyoming</option>
                                 </select> 
                               </div>                             
+                            </div>
+                            <div class="col-md-6">
+                              <div class="aa-checkout-single-bill">
+                                <input type="text" placeholder="Postcode / ZIP*">
+                              </div>
                             </div>                            
                           </div>  
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
@@ -681,6 +682,14 @@
                         <div class="panel-body">
                           <div class="row">
                             <div class="col-md-12">
+                              <div >
+                                <input type="checkbox"> Ship to a different address<br> <br>
+                              </div>                             
+                            </div>             
+
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12">
                               <div class="aa-payment-method">
                                 <input type="radio" name='group' ng-model='mValue' checked="checked"> Standard shipping (6-8 business days) $5.00 <br>
                                 <input type="radio" name='group' ng-model='mValue'> Express (2 business days) $10.00<br>
@@ -691,72 +700,15 @@
                               </div>                             
                             </div>                            
                           </div> 
-                          <div class="row">
-                            <div class="col-md-12">
-                              <div >
-                                <input type="checkbox"> Ship to a different address<br> <br>
-                              </div>                             
-                            </div>             
-
-                          </div>   
-                    <!--       <div class="row">
-                            <div class="col-md-12">
-                              <div class="aa-checkout-single-bill">
-                                <select>
-                                  <option value="0">Select Your Country</option>
-                                  <option value="1">Australia</option>
-                                  <option value="2">Afganistan</option>
-                                  <option value="3">Bangladesh</option>
-                                  <option value="4">Belgium</option>
-                                  <option value="5">Brazil</option>
-                                  <option value="6">Canada</option>
-                                  <option value="7">China</option>
-                                  <option value="8">Denmark</option>
-                                  <option value="9">Egypt</option>
-                                  <option value="10">India</option>
-                                  <option value="11">Iran</option>
-                                  <option value="12">Israel</option>
-                                  <option value="13">Mexico</option>
-                                  <option value="14">UAE</option>
-                                  <option value="15">UK</option>
-                                  <option value="16">USA</option>
-                                </select>
-                              </div>                             
-                            </div>                            
-                          </div>
-                          <div class="row">
-                            <div class="col-md-6">
-                              <div class="aa-checkout-single-bill">
-                                <input type="text" placeholder="Appartment, Suite etc.">
-                              </div>                             
-                            </div>
-                            <div class="col-md-6">
-                              <div class="aa-checkout-single-bill">
-                                <input type="text" placeholder="City / Town*">
-                              </div>
-                            </div>
-                          </div>   
-                          <div class="row">
-                            <div class="col-md-6">
-                              <div class="aa-checkout-single-bill">
-                                <input type="text" placeholder="Postcode / ZIP*">
-                              </div>
-                            </div>
-                          </div> 
-                           <div class="row">
-                            <div class="col-md-12">
-                              <div class="aa-checkout-single-bill">
-                                <textarea cols="8" rows="3">Special Notes</textarea>
-                              </div>                             
-                            </div>                            
-                          </div> -->    
+                             
+                       
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                             <input type="submit" value="Save" class="aa-browse-btn">
                           </a>                                            
                         </div>
                       </div>
                     </div>
-                    <!-- Coupon section -->
+                    <!-- Payment section -->
                     <div class="panel panel-default aa-payment-method">
                       <div class="panel-heading">
                         <h4 class="panel-title">
