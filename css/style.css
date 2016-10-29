@@ -240,7 +240,9 @@ aa-add-to-cart-btn
 .aa-add-to-cart-btn span {
   margin-right: 5px;
 }
-
+.colorOfStar{
+  color: #ff6600
+}
 .aa-filter-btn {  
   color: #fff;
   font-size: 15px;
