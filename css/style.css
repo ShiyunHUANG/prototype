@@ -501,7 +501,7 @@ aa-add-to-cart-btn
   width: 500px;
 }
 #aa-header .aa-header-bottom .aa-header-bottom-area .aa-search-box input[type="text"] {
-  border: 2px solid #ddd;
+  border: 1px solid #761B60;
   color: #555;
   font-size: 14px;
   font-family: "Raleway", sans-serif;
@@ -1841,7 +1841,7 @@ aa-add-to-cart-btn
   width: 450px;
 }
 #aa-subscribe .aa-subscribe-area .aa-subscribe-form input[type="email"] {
-  border: 2px solid #ccc;
+  border: 1px solid #761B60;
   color: #555;
   height: 40px;
   padding: 5px 125px 5px 10px;
@@ -4453,3 +4453,11 @@ aa-add-to-cart-btn
     cursor: pointer;
 }
 
+input[type="text"]::-webkit-input-placeholder {
+  color: #A37FA7;
+  font-weight: bold;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+  color: #A37FA7;
+}

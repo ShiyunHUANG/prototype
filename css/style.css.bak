@@ -145,7 +145,7 @@ aa-add-to-cart-btn
 
 .aa-secondary-btn2 {
   background-color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   padding: 10px 22px;
   margin-top: 10px;
   display: inline-block;
@@ -158,10 +158,11 @@ aa-add-to-cart-btn
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  font-weight: bold;
 }
 .aa-secondary-btn3 {
   background-color: #761B60;
-  font-size: 24px;
+  font-size: 20px;
   color: #fff;
   padding: 10px 22px;
   margin-top: 10px;
@@ -175,6 +176,7 @@ aa-add-to-cart-btn
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  font-weight: bold;
 }
 
 .aa-secondary-btn4 {
@@ -499,7 +501,7 @@ aa-add-to-cart-btn
   width: 500px;
 }
 #aa-header .aa-header-bottom .aa-header-bottom-area .aa-search-box input[type="text"] {
-  border: 2px solid #ddd;
+  border: 1px solid #761B60;
   color: #555;
   font-size: 14px;
   font-family: "Raleway", sans-serif;
@@ -898,7 +900,9 @@ aa-add-to-cart-btn
 #aa-slider .aa-slider-area {
   display: inline;
   float: left;
-  width: 100%;
+  width: 86%;
+  margin-left: 7%;
+  margin-top: 3%;
 }
 #aa-slider .aa-slider-area .seq-title {
   margin-right: 0;
@@ -1245,7 +1249,6 @@ aa-add-to-cart-btn
 }
 .aa-product-catg li figure .aa-add-card-btn {
   background: #A37FA7 none repeat scroll 0 0;
-  padding-bottom: 2cm;
   bottom: 0;
   color: #FFF;
   font-size: 16px;
@@ -4411,4 +4414,50 @@ aa-add-to-cart-btn
     padding: 5px 2px;
   }
 }
+/* The coupon (background) */
+.coupon {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    margin-top: 100px;
+    width: 65%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
+/* coupon Content/Box */
+.coupon-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #761B60;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color:  #761B60;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  color: #A37FA7;
+  font-weight: bold;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+  color: #A37FA7;
+}
