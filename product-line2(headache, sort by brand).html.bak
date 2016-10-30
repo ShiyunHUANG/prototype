@@ -39,9 +39,9 @@
   
 
 
-  </head>
+   </head>
   <body class="productPage"> 
-   <!-- wpf loader Two -->
+    <!-- wpf loader Two -->
     <div id="wpf-loader-two">          
       <div class="wpf-loader-two-inner">
         <span>Loading</span>
@@ -53,7 +53,7 @@
   <!-- END SCROLL TOP BUTTON -->
 
 
-  <!-- Start header section -->
+   <!-- Start header section -->
   <header id="aa-header">
     <!-- start header top  -->
     <div class="aa-header-top">
@@ -103,7 +103,7 @@
                 <a class="aa-cart-link" href="cart.html">
                   <span class="fa fa-shopping-cart"></span>
                   <span class="aa-cart-title">Cart</span>
-                  <span class="aa-cart-notify">1</span>
+                  <span class="aa-cart-notify">2</span>
                 </a>
                 <div class="aa-cartbox-summary">
                   <ul>
@@ -114,17 +114,25 @@
                         <p>1 x 10.50</p>
                       </div>
                       <a class="aa-remove-product" href="#"><span class="fa fa-times"></span></a>
+                    </li>
+                    <li>
+                      <a class="aa-cartbox-img" href="#"><img src="img/product/Aspirin1.jpg" alt="img"></a>
+                      <div class="aa-cartbox-info">
+                        <h4><a href="#">CVS Enteric Coated Tablets</a></h4>
+                        <p>1 x $29.50</p>
+                      </div>
+                      <a class="aa-remove-product" href="#"><span class="fa fa-times"></span></a>
                     </li>                    
                     <li>
                       <span class="aa-cartbox-total-title">
                         Total
                       </span>
                       <span class="aa-cartbox-total-price">
-                        $10.50
+                        $40.00
                       </span>
                     </li>
                   </ul>
-                  <a class="aa-cartbox-checkout aa-primary-btn2" href="cart.html">View Your Cart</a>
+                  <a class="aa-cartbox-checkout aa-primary-btn" href="cart.html">View Your Cart</a>
                 </div>
               </div>
               <!-- / cart box -->
@@ -518,7 +526,7 @@
               </div>
             </div>
             <div class="aa-product-catg-body">
-         
+        
               <div class="aa-product-catg-pagination">
               <nav>
                 <ul class="pagination">
@@ -540,22 +548,59 @@
                 </ul>
               </nav>
             </div>
-            <h2>Search Results for "Aspirin".</h2>
+            <h2>Search Results for "headache".</h2>
               <ul class="aa-product-catg">
+              <!-- start single product item -->
+                <li>
+                  <figure>
+                    <a class="aa-product-img" href="product-detail2.html"><img src="img/product/list/Alka1.jpg" alt="Alka1 img"></a>
+                    <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
+                    <figcaption>
+                      <h4 class="aa-product-title"><a href="product-detail2.html">Alka-Seltzer Plus Night Cold Effervescent Tablets , 20CT</a></h4>
+                      <span class="aa-product-price">$5.99</span>
+                       <p class="aa-product-descrip">Alka-Seltzer Plus Night Cold Effervescent Tablets Lemon, 20CT</p>
+                    </figcaption>
+                  </figure>                         
+                  <div class="aa-product-hvr-content">
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
+                  
+                  </div>
+                </li>
+               
+                 
+                </li>
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="product-detail.html"><img src="img/product/list/bayer1.jpg" alt="bayer1 img"></a>
+                    <a class="aa-product-img" href="product-detail2.html"><img src="img/product/list/Bayer2.jpg" alt="Bayer2 img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
-                      <h4 class="aa-product-title"><a href="product-detail.html">Bayor Aspirin Capsules, 300 CT</a></h4>
+                      <h4 class="aa-product-title"><a href="product-detail2.html">Bayer Aspirin Coated Tablets 325mg</a></h4>
+                      <span class="aa-product-price">$9.50</span>
+                      <p class="aa-product-descrip">Bayer Genuine Aspirin Coated Tablets 325mg</p>
+                    </figcaption>
+                  </figure>                 
+                  <div class="aa-product-hvr-content">
+                   <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
+             
+                  </div>
+                </li>
+                <!-- start single product item -->
+                <li>
+                  <figure>
+                    <a class="aa-product-img" href="product-detail2.html"><img src="img/product/list/bayer1.jpg" alt="bayer1 img"></a>
+                    <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
+                    <figcaption>
+                      <h4 class="aa-product-title"><a href="product-detail2.html">Bayor Aspirin Capsules, 300 CT</a></h4>
                       <span class="aa-product-price">$10.50</span><span class="aa-product-price"><del>$25.50</del></span>
                       <p class="aa-product-descrip">Bayer Low Dose Enteric Coated Tablets 81mg, 300 CT</p>
                     </figcaption>
                   </figure>                         
                   <div class="aa-product-hvr-content">
                     <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
-                   <a href="#" data-toggle="modal" data-target="#compare-modal1" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
                                               
                   </div>
                   <!-- product badge -->
@@ -564,45 +609,68 @@
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="product-detail2.html"><img src="img/product/list/CVS1.jpg" alt="CVS1 img"></a>
+                    <a class="aa-product-img" href="product-detail2.html"><img src="img/product/list/BC1.jpg" alt="BC1 img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
-                      <h4 class="aa-product-title"><a href="product-detail.html">Kirkland Signature Safety Coated Enteric Aspirin, 325 mg, 500 Tablets  </a></h4>
-                      <span class="aa-product-price">$29.50</span>
-                       <p class="aa-product-descrip">Kirkland Signature Safety Coated Enteric Aspirin, 325 mg, 500 Tablets </p>
+                      <h4 class="aa-product-title"><a href="product-detail2.html">BC Fast Pain Relief Powders</a></h4>
+                      <span class="aa-product-price">$35.50</span>
+                      <p class="aa-product-descrip">BC Fast Pain Relief Powders.</p>
                     </figcaption>
                   </figure>                         
                   <div class="aa-product-hvr-content">
                     <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
-                   <a href="#" data-toggle="modal" data-target="#compare-modal2" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
+                  
+                  </div>
+
+
+                <!-- start single product item -->
+                <li>
+                  <figure>
+                    <a class="aa-product-img" href="product-detail2.html"><img src="img/product/list/CVS4.jpg" alt="CVS4 img"></a>
+                    <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
+                    <figcaption>
+                      <h4 class="aa-product-title"><a href="product-detail2.html">CVS Infants Pain Relief Liquid Cherry</a></h4>
+                      <span class="aa-product-price">$19.99</span>
+                      <p class="aa-product-descrip">CVS Infants Pain Relief Liquid Cherry</p>
+                    </figcaption>
+                  </figure>                          
+                  <div class="aa-product-hvr-content">
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
+          
+                  </div>
+                  
+                </li>
+                
+                
+                </li>   
+
+                <!-- start single product item -->
+                <li>
+                  <figure>
+                    <a class="aa-product-img" href="product-detail2.html"><img src="img/product/list/CVS1.jpg" alt="CVS1 img"></a>
+                    <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
+                    <figcaption>
+                      <h4 class="aa-product-title"><a href="product-detail2.html">CVS Enteric Coated Tablets </a></h4>
+                      <span class="aa-product-price">$29.50</span>
+                       <p class="aa-product-descrip">CVS Health Regular Strength Aspirin 325mg Enteric Coated Tablets</p>
+                    </figcaption>
+                  </figure>                         
+                  <div class="aa-product-hvr-content">
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
                     
                   </div>
                   
                 </li>
-                <!-- start single product item -->
+                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="product-detail.html"><img src="img/product/list/Alka1.jpg" alt="Alka1 img"></a>
+                    <a class="aa-product-img" href="product-detail2.html"><img src="img/product/list/CVS3.jpg" alt="CVS3 img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
-                      <h4 class="aa-product-title"><a href="product-detail.html">Alka-Seltzer Plus Night Cold Effervescent Tablets , 200 CT</a></h4>
-                      <span class="aa-product-price">$5.99</span>
-                       <p class="aa-product-descrip">Alka-Seltzer Plus Night Cold Effervescent Tablets Lemon, 200 CT</p>
-                    </figcaption>
-                  </figure>                         
-                  <div class="aa-product-hvr-content">
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
-                      <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
-                  
-                  </div>
-                </li>
-                <!-- start single product item -->
-                <li>
-                  <figure>
-                    <a class="aa-product-img" href="product-detail.html"><img src="img/product/list/CVS3.jpg" alt="CVS3 img"></a>
-                    <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
-                    <figcaption>
-                      <h4 class="aa-product-title"><a href="product-detail.html">CVS Health Aspirin-Free Tension Headache Pain Reliever/Pain Reliever Aid Coated Caplets, 100CT</a></h4>
+                      <h4 class="aa-product-title"><a href="product-detail2.html">CVS Health Aspirin-Free Tension Headache Pain Reliever/Pain Reliever Aid Coated Caplets, 100CT</a></h4>
                       <span class="aa-product-price">$6.49</span><span class="aa-product-price"><del>$6.90</del></span>
                       <p class="aa-product-descrip">CVS Health Aspirin-Free Tension Headache Pain Reliever/Pain Reliever Aid Coated Caplets, 100CT.</p>
                     </figcaption>
@@ -612,25 +680,70 @@
                     <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
                  
                   </div>
-                 
+
+
+                   <!-- start single product item -->
+                <li>
+                  <figure>
+                    <a class="aa-product-img" href="product-detail2.html"><img src="img/product/list/GERI1.jpg" alt="GERI1 img"></a>
+                    <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
+                    <figcaption>
+                      <h4 class="aa-product-title"><a href="product-detail2.html">GeriCare Aspirin Tablets 100CT</a></h4>
+                      <span class="aa-product-price">$41.99</span><span class="aa-product-price"><del>$55.50</del></span>
+                      <p class="aa-product-descrip">GeriCare Aspirin Tablets 100CT</p>
+                    </figcaption>
+                  </figure>                         
+                  <div class="aa-product-hvr-content">
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
+                                            
+                  </div>
+                  <!-- product badge -->
+                  <span class="aa-badge aa-sale" href="#">SALE!</span>
                 </li>
+
+
+
+                
+                <li>
+                  <figure>
+                    <a class="aa-product-img" href="product-detail2.html"><img src="img/product/list/MAJOR.jpg" alt="MAJOR img"></a>
+                    <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
+                    <figcaption>
+                      <h4 class="aa-product-title"><a href="product-detail2.html">Major Children's Aspirin Liquid 4 FL OZ</a></h4>
+                      <span class="aa-product-price">$25.99</span>
+                      <p class="aa-product-descrip">Major Children's Aspirin Liquid 4 FL OZ.</p>
+                    </figcaption>
+                  </figure>                         
+                  <div class="aa-product-hvr-content">
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
+                  
+                  </div>
+                  
+                </li>
+                
+               
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="product-detail2.html"><img src="img/product/list/Bayer2.jpg" alt="Bayer2 img"></a>
+                    <a class="aa-product-img" href="product-detail2.html"><img src="img/product/list/ST1.jpg" alt="ST1 img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
-                      <h4 class="aa-product-title"><a href="product-detail2.html">Bayer Aspirin Coated Tablets 325mg , 250 CT</a></h4>
-                      <span class="aa-product-price">$9.50</span>
-                      <p class="aa-product-descrip">Bayer Genuine Aspirin Coated Tablets 325mg ,250 CT</p>
+                      <h4 class="aa-product-title"><a href="product-detail2.html">St.Joseph Low Dose Aspirin, 81 mg, 120 CT</a></h4>
+                      <span class="aa-product-price">$23.99</span><span class="aa-product-price"><del>$29.99</del></span>
+                      <p class="aa-product-descrip">St.Joseph Low Dose Aspirin 120 CT</p>
                     </figcaption>
-                  </figure>                 
+                  </figure>                         
                   <div class="aa-product-hvr-content">
-                   <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
-                   <a href="#" data-toggle="modal" data-target="#compare-modal3" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
-             
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
+                
                   </div>
                 </li>
+
+
+
                 <!-- start single product item -->
                 <li>
                   <figure>
@@ -648,105 +761,16 @@
         
                   </div>
                 </li>
-                <!-- start single product item -->
-                <li>
-                  <figure>
-                    <a class="aa-product-img" href="product-detail.html"><img src="img/product/list/CVS4.jpg" alt="CVS4 img"></a>
-                    <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
-                    <figcaption>
-                      <h4 class="aa-product-title"><a href="product-detail.html">CVS Infants Pain Relief Liquid Cherry, 200mL</a></h4>
-                      <span class="aa-product-price">$19.99</span>
-                      <p class="aa-product-descrip">CVS Infants Pain Relief Liquid Cherry, 200mL</p>
-                    </figcaption>
-                  </figure>                          
-                  <div class="aa-product-hvr-content">
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
-          
-                  </div>
-                  
-                </li>
-                <!-- start single product item -->
+                
 
-                <li>
-                  <figure>
-                    <a class="aa-product-img" href="product-detail.html"><img src="img/product/list/BC1.jpg" alt="BC1 img"></a>
-                    <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
-                    <figcaption>
-                      <h4 class="aa-product-title"><a href="product-detail.html">BC Fast Pain Relief Powders, 100g</a></h4>
-                      <span class="aa-product-price">$35.50</span>
-                      <p class="aa-product-descrip">BC Fast Pain Relief Powders, 100g</p>
-                    </figcaption>
-                  </figure>                         
-                  <div class="aa-product-hvr-content">
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
-                  
-                  </div>
                 
-                </li>   
-                
-                <li>
-                  <figure>
-                    <a class="aa-product-img" href="product-detail.html"><img src="img/product/list/MAJOR.jpg" alt="MAJOR img"></a>
-                    <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
-                    <figcaption>
-                      <h4 class="aa-product-title"><a href="product-detail.html">Major Children's Aspirin Liquid 4 FL OZ</a></h4>
-                      <span class="aa-product-price">$25.99</span>
-                      <p class="aa-product-descrip">Major Children's Aspirin Liquid 4 FL OZ.</p>
-                    </figcaption>
-                  </figure>                         
-                  <div class="aa-product-hvr-content">
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
-                  
-                  </div>
-                  
-                </li>
-                 <!-- start single product item -->
-                <li>
-                  <figure>
-                    <a class="aa-product-img" href="product-detail.html"><img src="img/product/list/GERI1.jpg" alt="GERI1 img"></a>
-                    <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
-                    <figcaption>
-                      <h4 class="aa-product-title"><a href="product-detail.html">GeriCare Aspirin Tablets 100CT</a></h4>
-                      <span class="aa-product-price">$41.99</span><span class="aa-product-price"><del>$55.50</del></span>
-                      <p class="aa-product-descrip">GeriCare Aspirin Tablets 100CT</p>
-                    </figcaption>
-                  </figure>                         
-                  <div class="aa-product-hvr-content">
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
-                                            
-                  </div>
-                  <!-- product badge -->
-                  <span class="aa-badge aa-sale" href="#">SALE!</span>
-                </li>
-                <!-- start single product item -->
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="product-detail.html"><img src="img/product/list/ST1.jpg" alt="ST1 img"></a>
+                    <a class="aa-product-img" href="product-detail2.html"><img src="img/product/list/WAL.jpg" alt="WAL img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
-                      <h4 class="aa-product-title"><a href="product-detail.html">St.Joseph Low Dose Aspirin, 81 mg, 120 CT</a></h4>
-                      <span class="aa-product-price">$23.99</span><span class="aa-product-price"><del>$29.99</del></span>
-                      <p class="aa-product-descrip">St.Joseph Low Dose Aspirin 120 CT</p>
-                    </figcaption>
-                  </figure>                         
-                  <div class="aa-product-hvr-content">
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span class="fa fa-exchange"></span></a>
-                
-                  </div>
-                </li>
-                <!-- start single product item -->
-                <li>
-                  <figure>
-                    <a class="aa-product-img" href="product-detail.html"><img src="img/product/list/WAL.jpg" alt="WAL img"></a>
-                    <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
-                    <figcaption>
-                      <h4 class="aa-product-title"><a href="product-detail.html">Walgreens Pain Reliever/Fever Reducer Capsules, 160 soft gels</a></h4>
+                      <h4 class="aa-product-title"><a href="product-detail2.html">Walgreens Pain Reliever/Fever Reducer Capsules, 160 soft gels</a></h4>
                       <span class="aa-product-price">$13.79</span><span class="aa-product-price"><del>$15.79</del></span>
                       <p class="aa-product-descrip">Walgreens Pain Reliever/Fever Reducer Capsules, 160 soft gels.</p>
                     </figcaption>
@@ -867,23 +891,24 @@
             </div>
           </div>
         </div>
-
         <div class="col-lg-3 col-md-3 col-sm-4 col-md-pull-9">
           <aside class="aa-sidebar">
-            <!-- single sidebar -->
-             <div class="aa-sidebar-widget">
+
+
+
+<!-- single sidebar -->
+            <div class="aa-sidebar-widget">
               <h3>Shop By Price</h3>              
               <!-- price range -->
               <div class="aa-sidebar-price-range">
                <form action="">
-                  <div id="skipstep" class="noUi-target noUi-ltr noUi-horizontal noUi-background">
-                  </div>
-                  <span id="skip-value-lower" class="example-val">30.00</span>
-                 <span id="skip-value-upper" class="example-val">100.00</span>
+                  <div class="noUi-target noUi-ltr noUi-horizontal noUi-background" id="skipstep">
+                  <div class="noUi-base"><div class="noUi-origin noUi-connect" style="left: 20%;"><div class="noUi-handle noUi-handle-lower"></div></div><div class="noUi-origin noUi-background" style="left: 50%;"><div class="noUi-handle noUi-handle-upper"></div></div></div></div>
+                  <span class="example-val" id="skip-value-lower">20.00</span>
+                 <span class="example-val" id="skip-value-upper">50.00</span>
+                 
                </form>
-              </div>              
-
-            </div>
+              </div>
 
             <!-- single sidebar -->
             <div class="aa-sidebar-widget">
@@ -962,7 +987,7 @@
                   Alka-Seltzer
                   <input type="checkbox" name="Alka-Seltzer">
                    <br/>
-                  Bayer
+                 Bayer
                   <input type="checkbox" name="Bayer" onclick="filter()">
                   <script>
                     function filter(){
@@ -974,7 +999,9 @@
               </ul>
              
             </div>
-              
+                     
+
+            </div>
                                     
             <!-- single sidebar -->
             <div class="aa-sidebar-widget">
@@ -982,7 +1009,7 @@
               <div class="aa-recently-views">
                 <ul>
                   <li>
-                    <a href="product-detail.html" class="aa-cartbox-img"><img alt="img" src="img/product/Aspirin8.jpg"></a>
+                     <a href="product-detail.html" class="aa-cartbox-img"><img alt="img" src="img/product/Aspirin8.jpg"></a>
                     <div class="aa-cartbox-info">
                       <h4><a href="product-detail.html">Liodell Sore Throat Spray, 300 ml</a></h4>
                       <p>1 x $13.99</p>
@@ -1136,165 +1163,8 @@
   </div>    
   <!-- Login Modal 拷贝结束 --> 
 
-    <!-- 模态框 1（Modal） -->
-<div class="modal fade" id="compare-modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-compare">
-    <div class="modal-content">
-      <div class="modal-body">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-         <div class = "container">
-            <div class = "row">
-              <div class = "col-md-3">
-              <button type="button" class="cancel" data-dismiss="modal" aria-hidden="true">&times;</button>
-                  <figure class = "bc">
-                    <a  href="product-detail.html"><img height = 100px src="img/product/list/bayer1.jpg" alt="bayer1 img"></a>
-                     <figcaption>
-                               <a class="aa-product-title" href="product-detail.html"> Bayor Aspirin，300 CT</a>
-                               <span class="aa-product-price">$10.50</span> 
-                             </figcaption>
-                </figure> 
-             </div>
-          </div>
-        </div> 
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="aa-secondary-btn4" data-dismiss="modal">Add more
-        </button>
-        <a class="aa-secondary-btn4" href="compare.html">Compare</a>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal -->
-</div>
 
-  <!-- 模态框 2（Modal） -->
-<div class="modal fade" id="compare-modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-compare">
-    <div class="modal-content">
-      <div class="modal-body">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-         <div class = "container">
-            <div class = "row">
-              <div class = "col-md-3">
-              <button type="button" class="cancel" data-dismiss="modal" aria-hidden="true">&times;</button>
-                  <figure class = "bc">
-                    <a  href="product-detail.html"><img height = 100px src="img/product/list/bayer1.jpg" alt="bayer1 img"></a>
-                     <figcaption>
-                               <a class="aa-product-title" href="product-detail.html"> Bayor Aspirin，300 CT</a>
-                               <span class="aa-product-price">$10.50</span> 
-                             </figcaption>
-                </figure> 
-             </div>
-             <div class = "col-md-3">
-              <button type="button" class="cancel" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <figure class = "bc">
-                  <a  href="product-detail.html"><img height = 100px src="img/product/list/CVS3.jpg" alt="bayer1 img"></a>
-                   <figcaption>
-                                <a class="aa-product-title" href="product-detail.html">CVS Caplets, 100CT</a>
-                               <span class="aa-product-price">$6.49</span> 
-                             </figcaption>
-                </figure> 
-            </div>  
-          </div>
-        </div> 
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="aa-secondary-btn4" data-dismiss="modal">Add more
-        </button>
-        <a class="aa-secondary-btn4" href="compare.html">Compare</a>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal -->
-</div>
-
-  <!-- 模态框 3（Modal） -->
-<div class="modal fade" id="compare-modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-compare">
-    <div class="modal-content">
-      <div class="modal-body">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-         <div class = "container">
-            <div class = "row">
-              <div class = "col-md-3">
-              <button type="button" class="cancel" data-dismiss="modal" aria-hidden="true">&times;</button>
-                  <figure class = "bc">
-                    <a  href="product-detail.html"><img height = 100px src="img/product/list/bayer1.jpg" alt="bayer1 img"></a>
-                     <figcaption>
-                               <a class="aa-product-title" href="product-detail.html"> Bayor Aspirin，300 CT</a>
-                               <span class="aa-product-price">$10.50</span> 
-                             </figcaption>
-                </figure> 
-             </div>
-             <div class = "col-md-3">
-              <button type="button" class="cancel" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <figure class = "bc">
-                  <a  href="product-detail.html"><img height = 100px src="img/product/list/CVS3.jpg" alt="bayer1 img"></a>
-                   <figcaption>
-                                <a class="aa-product-title" href="product-detail.html">CVS Caplets, 100CT</a>
-                               <span class="aa-product-price">$6.49</span> 
-                             </figcaption>
-                </figure> 
-            </div>  
-             <div class = "col-md-3">
-              <button type="button" class="cancel" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <figure  class = "bc">
-                  <a class="aa-product-img" href="product-detail.html"><img height = 100px src="img/product/list/Bayer2.jpg" alt="bayer1 img"></a>
-                   <figcaption>
-                               <a class="aa-product-title" href="product-detail.html">Bayer Aspirin， 325CT</a>     <br>                  
-                               <span class="aa-product-price">$9.50</span>
-                             </figcaption>
-                </figure>   
-            </div>
-          </div>
-        </div> 
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="aa-secondary-btn4" data-dismiss="modal">Add more
-        </button>
-        <a class="aa-secondary-btn4" href="compare.html">Compare</a>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal -->
-</div>
     
-     <!-- 模态框 2（Modal） -->
-<div class="modal fade" id="compare-modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-compare">
-    <div class="modal-content">
-      <div class="modal-body">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-         <div class = "container">
-            <div class = "row">
-              <div class = "col-md-3">
-              <button type="button" class="cancel" data-dismiss="modal" aria-hidden="true">&times;</button>
-                  <figure class = "bc">
-                    <a  href="product-detail.html"><img height = 100px src="img/product/list/bayer1.jpg" alt="bayer1 img"></a>
-                     <figcaption>
-                               <a class="aa-product-title" href="product-detail.html"> Bayor Aspirin，300 CT</a>
-                               <span class="aa-product-price">$10.50</span> 
-                             </figcaption>
-                </figure> 
-             </div>
-             <div class = "col-md-3">
-              <button type="button" class="cancel" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <figure class = "bc">
-                  <a  href="product-detail.html"><img height = 100px src="img/product/list/CVS3.jpg" alt="bayer1 img"></a>
-                   <figcaption>
-                                <a class="aa-product-title" href="product-detail.html">CVS Caplets, 100CT</a>
-                               <span class="aa-product-price">$6.49</span> 
-                             </figcaption>
-                </figure> 
-            </div>  
-          </div>
-        </div> 
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="aa-secondary-btn4" data-dismiss="modal">Add more
-        </button>
-        <a class="aa-secondary-btn4" href="compare.html">Compare</a>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal -->
-</div>
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->

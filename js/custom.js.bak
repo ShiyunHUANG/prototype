@@ -257,6 +257,9 @@ jQuery(function($){
             },
             snap: true,
             connect: true,
+			if(skipSlider.value == 1) {
+					start: [0, 20]
+				}
             start: [0, 50]
         });
         // for value print
