@@ -1841,7 +1841,7 @@ aa-add-to-cart-btn
   width: 450px;
 }
 #aa-subscribe .aa-subscribe-area .aa-subscribe-form input[type="email"] {
-  border: 2px solid #ccc;
+  border: 1px solid #761B60;
   color: #555;
   height: 40px;
   padding: 5px 125px 5px 10px;
@@ -2304,14 +2304,23 @@ aa-add-to-cart-btn
   float: none;
   margin-bottom: 0px;
 }
-#aa-product-details .aa-product-details-area .aa-product-details-bottom .nav-tabs li a {
+
+#aa-product-details .aa-product-details-area .aa-product-details-bottom .nav-tabs .active a {
   border-radius: 0;
   border: none;
   font-size: 18px;
 }
+
 #aa-product-details .aa-product-details-area .aa-product-details-bottom .nav-tabs li a:hover, #aa-product-details .aa-product-details-area .aa-product-details-bottom .nav-tabs li a:focus {
-  background-color: transparent;
+  background-color: #761B60;
+  color: white;
   border: none;
+}
+#aa-product-details .aa-product-details-area .aa-product-details-bottom .nav-tabs li a:hover, #aa-product-details .aa-product-details-area .aa-product-details-bottom .nav-tabs li a:hover {
+  background-color: #A37FA7;
+  color: white;
+  border: none;
+
 }
 #aa-product-details .aa-product-details-area .aa-product-details-bottom #description {
   padding: 20px 10px;

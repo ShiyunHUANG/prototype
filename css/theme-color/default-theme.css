@@ -31,12 +31,11 @@ h2 {
 }
 
 .aa-selection-change-btn:hover {
-  text-shadow: #CC0000 1px 0 0 !important;
-  color: #CC0000 !important;
+  color: #CC0000;
   }
 .aa-selection-change-btn:focus {
   color: #761B60; 
-  border-color: #9999FF;  
+  border-color: #761B60;  
 }
 .aa-filter-btn {
   background-color: #761B60;
