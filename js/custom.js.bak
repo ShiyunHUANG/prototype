@@ -257,9 +257,6 @@ jQuery(function($){
             },
             snap: true,
             connect: true,
-			if(skipSlider.value == 1) {
-					start: [0, 20]
-				}
             start: [0, 50]
         });
         // for value print
@@ -370,7 +367,22 @@ jQuery(function($){
 		cssEase: 'linear'
     });
 
+  /* ----------------------------------------------------------- */
+  /*  15. POP UP COUPON
+  /* ----------------------------------------------------------- */  
 
-    
+
+
+	jQuery("#viewCoupon").click(function(e){
+		$('#coupons').attr('style', 'display: block');
+	});
+
+
+	// When the user clicks on <span> (x), close the coupon
+	jQuery(".close").click(function(e){
+		$('#coupons').attr('style', 'display: none');
+	});
+
+
 });
 

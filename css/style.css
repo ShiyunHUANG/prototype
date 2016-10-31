@@ -4464,9 +4464,12 @@ aa-add-to-cart-btn
 
 input[type="text"]::-webkit-input-placeholder {
   color: #A37FA7;
-  font-weight: bold;
 }
 
 input[type="email"]::-webkit-input-placeholder {
+  color: #A37FA7;
+}
+
+input[type="password"]::-webkit-input-placeholder {
   color: #A37FA7;
 }

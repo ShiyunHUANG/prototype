@@ -2306,9 +2306,9 @@ aa-add-to-cart-btn
 }
 
 #aa-product-details .aa-product-details-area .aa-product-details-bottom .nav-tabs .active a {
-  border-radius: 0;
+  background-color: #761B60;
+  color: white;
   border: none;
-  font-size: 18px;
 }
 
 #aa-product-details .aa-product-details-area .aa-product-details-bottom .nav-tabs li a:hover, #aa-product-details .aa-product-details-area .aa-product-details-bottom .nav-tabs li a:focus {
@@ -4468,5 +4468,9 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 input[type="email"]::-webkit-input-placeholder {
+  color: #A37FA7;
+}
+
+input[type="password"]::-webkit-input-placeholder {
   color: #A37FA7;
 }
