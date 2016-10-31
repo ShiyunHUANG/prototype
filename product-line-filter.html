@@ -680,20 +680,20 @@
 
 
 
-<!-- single sidebar -->
+    <!-- single sidebar -->
             <div class="aa-sidebar-widget">
               <h3>Shop By Price</h3>              
               <!-- price range -->
               <div class="aa-sidebar-price-range">
                <form action="">
-                  <div id="skipstep" class="noUi-target noUi-ltr noUi-horizontal noUi-background" value="1">
+                  <div id="skipstep" class="noUi-target noUi-ltr noUi-horizontal noUi-background">
                   </div>
                   <span id="skip-value-lower" class="example-val">30.00</span>
                  <span id="skip-value-upper" class="example-val">100.00</span>
                </form>
               </div>              
 
-            </div>   
+            </div>
 
             <!-- single sidebar -->
             <div class="aa-sidebar-widget">
@@ -773,15 +773,18 @@
                   <input type="checkbox" name="Alka-Seltzer">
                    <br/>
                   Bayer
-                  <input type="checkbox" name="Bayer" checked>
+                  <input type="checkbox" name="Bayer" onclick="filter()">
+                  <script>
+                    function filter(){
+                      window.location='product-line-filter.html'; 
+                    }
+                  </script>
                   </form>
 
               </ul>
              
             </div>
-                     
-
-            </div>
+              
                                     
             <!-- single sidebar -->
             <div class="aa-sidebar-widget">
@@ -789,7 +792,7 @@
               <div class="aa-recently-views">
                 <ul>
                   <li>
-                     <a href="product-detail.html" class="aa-cartbox-img"><img alt="img" src="img/product/Aspirin8.jpg"></a>
+                    <a href="product-detail.html" class="aa-cartbox-img"><img alt="img" src="img/product/Aspirin8.jpg"></a>
                     <div class="aa-cartbox-info">
                       <h4><a href="product-detail.html">Liodell Sore Throat Spray, 300 ml</a></h4>
                       <p>1 x $13.99</p>
@@ -930,7 +933,7 @@
             <input type="text" placeholder="Username or Email(including @)">
             <label for="">Password<span>*</span></label>
             <input type="password" placeholder="Password">
-            <a class="aa-secondary-btn4" href="index-signed in.html">Login</a>
+            <a class="aa-secondary-btn4" href="indexSignedIn.html">Login</a>
             <label for="rememberme" class="rememberme"><input type="checkbox" id="rememberme"> Remember me </label>
             <p class="aa-lost-password"><a href="404.html">Forgot your password?</a></p>
             <div class="aa-register-now">
